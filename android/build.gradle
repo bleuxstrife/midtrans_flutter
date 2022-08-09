@@ -25,10 +25,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 32
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
@@ -39,6 +39,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
-    debugImplementation 'com.midtrans:uikit:1.25.0-SANDBOX'
-    releaseImplementation 'com.midtrans:uikit:1.25.0'
+    debugImplementation 'com.midtrans:uikit:1.32.0-SANDBOX'
+    releaseImplementation 'com.midtrans:uikit:1.32.0'
 }
